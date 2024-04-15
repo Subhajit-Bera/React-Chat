@@ -1,0 +1,41 @@
+nav {
+  width: 100vw;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  background-color:#EDEADE;
+  top: 0%;
+
+
+
+
+
+  .first {
+    width: 80vw;
+    align-items: center;
+
+    >span{
+      margin-left: 2rem;
+    }
+
+  }
+
+  .second {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: center;
+
+    >p {
+      margin-right: 1rem;
+      font-size: 1rem;
+    }
+    >svg{
+      margin-right: 1rem;
+    }
+  }
+}
