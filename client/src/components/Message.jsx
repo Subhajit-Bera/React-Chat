@@ -8,10 +8,8 @@ const Message = ({ name, time, message }) => {
     const [showLikeButton, setShowLikeButton] = useState(false);
 
     const handleLike = () => {
-        if (!liked) {
-            setLikeCount(likeCount + 1);
-            setLiked(true);
-        }
+        setLiked(true);
+        setLikeCount(likeCount + 1);
     };
     return (
         <div className="chat-container" onMouseEnter={() => setShowLikeButton(true)}
