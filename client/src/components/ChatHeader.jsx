@@ -9,7 +9,7 @@ const ChatHeader = () => {
                 <h1>
                     Introductions
                 </h1>
-                <span>efhof oifoisdf dfs</span>
+                <span>This Channel Is For Company Wide Chatter</span>
             </div>
 
 
