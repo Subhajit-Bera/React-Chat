@@ -1,4 +1,5 @@
 # React-Chat
+### [Hosted Link](https://react-chatapp-client.netlify.app/)
 
 ## ⚙️ Functionality 
 - For each message, add a like button 
