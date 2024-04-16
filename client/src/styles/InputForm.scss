@@ -1,4 +1,4 @@
-.input-form{
+.input-form {
     position: sticky;
     width: 100vw;
     padding: 1rem;
@@ -10,7 +10,7 @@
 form {
     display: flex;
     align-items: center;
-   
+
 }
 
 input {
@@ -18,9 +18,10 @@ input {
     padding: 1rem;
     border-radius: 5px;
     border: none;
-    width: calc(100vw - 10rem); 
-    box-sizing: border-box; 
+    width: calc(100vw - 10rem);
+    box-sizing: border-box;
     font-size: 1rem;
+    margin-left: 3rem;
 }
 
 .send-button {
@@ -35,4 +36,25 @@ input {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+
+.emoji-picker-box {
+    position: absolute;
+    width: 2rem;
+}
+
+
+
+.d-block {
+    display: block !important;
+    position: absolute; // Position the emoji picker absolutely
+    bottom: 100%; // Position it above the input field
+    z-index: 100;
+}
+
+.d-none {
+    display: none !important;
+    z-index: 10;
+
 }
