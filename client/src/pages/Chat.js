@@ -6,7 +6,7 @@ import ChatBox from '../components/ChatBox';
 const Chat = () => {
     return (
         <>
-            <ChatHeader />
+            {/* <ChatHeader /> */}
             <ChatBox/>
             
         </>

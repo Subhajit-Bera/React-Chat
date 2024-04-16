@@ -1,0 +1,38 @@
+.input-form{
+    position: sticky;
+    width: 100vw;
+    padding: 1rem;
+}
+
+
+
+
+form {
+    display: flex;
+    align-items: center;
+   
+}
+
+input {
+    background-color: #E0E0E0;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    width: calc(100vw - 10rem); 
+    box-sizing: border-box; 
+    font-size: 1rem;
+}
+
+.send-button {
+    width: 5rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

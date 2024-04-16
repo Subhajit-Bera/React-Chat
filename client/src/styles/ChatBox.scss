@@ -2,13 +2,21 @@
     width: 100vw;
     height: 100vh;
     border: 1rem solid #EDEADE;
-    padding: 1rem;
+    // padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    // overflow-y: hidden;
 
 }
 
 .chat-container {
     display: flex;
     align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    // align-items: flex-end;
+    // justify-content: flex-end;
 }
 
 .chat-info {
@@ -50,4 +58,5 @@
     display: inline-block;
     max-width: calc(100% - 30px);
     word-wrap: break-word;
+    
 }

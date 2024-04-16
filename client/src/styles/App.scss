@@ -5,3 +5,18 @@
     // box-ss  //When any link get clicked it will smoothly traverse to the target element
     box-sizing: border-box;
   }
+
+
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.281);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  

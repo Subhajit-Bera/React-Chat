@@ -3,6 +3,7 @@ import "./styles/App.scss";
 
 import "./styles/ChatHeader.scss";
 import "./styles/ChatBox.scss";
+import "./styles/InputForm.scss";
 
 
 
